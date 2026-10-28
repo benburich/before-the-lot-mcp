@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.beforethelot/before-the-lot",
+  "title": "Before the Lot",
+  "description": "Car-buying math and state rules: out-the-door prices, quote checks, leases and trade-ins",
+  "version": "1.0.0",
+  "websiteUrl": "https://beforethelot.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://beforethelot.com/mcp"
+    }
+  ]
+}
